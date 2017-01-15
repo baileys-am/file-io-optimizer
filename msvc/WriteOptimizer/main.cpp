@@ -5,9 +5,6 @@
 #include <vector>
 #include <numeric>
 
-const unsigned long long size = 8ULL * 1024ULL * 1024ULL;
-unsigned long long a[size];
-
 int main()
 {
 	std::vector<size_t> bufferSizes = { 256, 512, 1024, 2048, 4096 };
